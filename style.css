@@ -1,24 +1,38 @@
-ol {
-    list-style: none;
-    counter-reset: my-counter;
-    padding-left: 10px;
-  }
-  
-  ol li {
-    counter-increment: my-counter;
-  }
-  
-  ol li::before {
-    content: counter(my-counter) ". ";
-    padding-left: 5px;
-  }
-  
-  li.red_item {
-    background: red;
-  }
-  
-  ol li.red_item::before {
-    background: red;
-  }
+#main-section{
+  background-color: red;
+  font-family: "Montserrat", sans-serif;
+}
+p{
+  font-size: 12px;
+}
+.container{
+  display: flex;
+  background-color: green;
+  max-width: 520px;
+}
+.percant_part{
+  background-color: blue;
+  max-width: 30%;
+}
+h1{
+  font-size: 45px;
+  color: red;
+
+}
+h2{
+  font-size: 30px;
+}
+.percant_part p{
+  background-color: blue;
+  max-width: 30%;
+}
+.descripe_part{
+  max-width: 70%;
+  background-color: paleturquoise;
+}
+.descripe_part p{
+  margin-top: 30px;
+}
+
 
  
